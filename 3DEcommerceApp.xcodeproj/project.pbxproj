@@ -11,6 +11,9 @@
 		43A6247128EC8F410000E6CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A6247028EC8F410000E6CA /* ContentView.swift */; };
 		43A6247328EC8F440000E6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A6247228EC8F440000E6CA /* Assets.xcassets */; };
 		43A6247628EC8F440000E6CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A6247528EC8F440000E6CA /* Preview Assets.xcassets */; };
+		43A6247D28EC91A00000E6CA /* Nike_Air_Jordan.scn in Resources */ = {isa = PBXBuildFile; fileRef = 43A6247C28EC91A00000E6CA /* Nike_Air_Jordan.scn */; };
+		43A6248028EC91C50000E6CA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A6247F28EC91C50000E6CA /* Home.swift */; };
+		43A6248228EC92520000E6CA /* CustomSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A6248128EC92520000E6CA /* CustomSceneView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		43A6247028EC8F410000E6CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		43A6247228EC8F440000E6CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43A6247528EC8F440000E6CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43A6247C28EC91A00000E6CA /* Nike_Air_Jordan.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Nike_Air_Jordan.scn; sourceTree = "<group>"; };
+		43A6247F28EC91C50000E6CA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		43A6248128EC92520000E6CA /* CustomSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSceneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,7 @@
 		43A6246228EC8F400000E6CA = {
 			isa = PBXGroup;
 			children = (
+				43A6247C28EC91A00000E6CA /* Nike_Air_Jordan.scn */,
 				43A6246D28EC8F410000E6CA /* 3DEcommerceApp */,
 				43A6246C28EC8F410000E6CA /* Products */,
 			);
@@ -51,6 +58,7 @@
 		43A6246D28EC8F410000E6CA /* 3DEcommerceApp */ = {
 			isa = PBXGroup;
 			children = (
+				43A6247E28EC91B30000E6CA /* View */,
 				43A6246E28EC8F410000E6CA /* _DEcommerceAppApp.swift */,
 				43A6247028EC8F410000E6CA /* ContentView.swift */,
 				43A6247228EC8F440000E6CA /* Assets.xcassets */,
@@ -65,6 +73,15 @@
 				43A6247528EC8F440000E6CA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43A6247E28EC91B30000E6CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				43A6247F28EC91C50000E6CA /* Home.swift */,
+				43A6248128EC92520000E6CA /* CustomSceneView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43A6247D28EC91A00000E6CA /* Nike_Air_Jordan.scn in Resources */,
 				43A6247628EC8F440000E6CA /* Preview Assets.xcassets in Resources */,
 				43A6247328EC8F440000E6CA /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43A6248228EC92520000E6CA /* CustomSceneView.swift in Sources */,
 				43A6247128EC8F410000E6CA /* ContentView.swift in Sources */,
+				43A6248028EC91C50000E6CA /* Home.swift in Sources */,
 				43A6246F28EC8F410000E6CA /* _DEcommerceAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
