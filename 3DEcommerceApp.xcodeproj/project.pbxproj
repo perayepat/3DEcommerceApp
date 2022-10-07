@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4360880528F0473F00EED8D9 /* nike_prestp.scn in Resources */ = {isa = PBXBuildFile; fileRef = 4360880428F0473F00EED8D9 /* nike_prestp.scn */; };
+		4360880728F04C1100EED8D9 /* Yellow_Dunk_Nike_Low.scn in Resources */ = {isa = PBXBuildFile; fileRef = 4360880628F04C1100EED8D9 /* Yellow_Dunk_Nike_Low.scn */; };
 		43A6246F28EC8F410000E6CA /* _DEcommerceAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A6246E28EC8F410000E6CA /* _DEcommerceAppApp.swift */; };
 		43A6247128EC8F410000E6CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A6247028EC8F410000E6CA /* ContentView.swift */; };
 		43A6247328EC8F440000E6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A6247228EC8F440000E6CA /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4360880428F0473F00EED8D9 /* nike_prestp.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = nike_prestp.scn; sourceTree = "<group>"; };
+		4360880628F04C1100EED8D9 /* Yellow_Dunk_Nike_Low.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Yellow_Dunk_Nike_Low.scn; sourceTree = "<group>"; };
 		43A6246B28EC8F410000E6CA /* 3DEcommerceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DEcommerceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A6246E28EC8F410000E6CA /* _DEcommerceAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DEcommerceAppApp.swift; sourceTree = "<group>"; };
 		43A6247028EC8F410000E6CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,7 +45,9 @@
 		43A6246228EC8F400000E6CA = {
 			isa = PBXGroup;
 			children = (
+				4360880628F04C1100EED8D9 /* Yellow_Dunk_Nike_Low.scn */,
 				43A6247C28EC91A00000E6CA /* Nike_Air_Jordan.scn */,
+				4360880428F0473F00EED8D9 /* nike_prestp.scn */,
 				43A6246D28EC8F410000E6CA /* 3DEcommerceApp */,
 				43A6246C28EC8F410000E6CA /* Products */,
 			);
@@ -142,7 +148,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4360880728F04C1100EED8D9 /* Yellow_Dunk_Nike_Low.scn in Resources */,
 				43A6247D28EC91A00000E6CA /* Nike_Air_Jordan.scn in Resources */,
+				4360880528F0473F00EED8D9 /* nike_prestp.scn in Resources */,
 				43A6247628EC8F440000E6CA /* Preview Assets.xcassets in Resources */,
 				43A6247328EC8F440000E6CA /* Assets.xcassets in Resources */,
 			);
